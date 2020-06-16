@@ -1,0 +1,97 @@
+<div class="container">
+  <br>
+  <div class="name">
+    <h1>Daniel Howitt</h1>
+  </div>
+  <hr>
+  <div class="about-page-content mt-3">
+    <div class="about-page-info1">
+      <h4><strong>Hello !</strong></h4>
+      <h5>I'm a fullstack web developer with experience of working in banks, asset management, blockchain, and think-tanks.</h5>
+      <h5>
+      My aspirations are to be at the forefront of innovation, whether that is displacing legacy systems and processes or contributing to disruptive change. I am passionate about technology's fundamental role in innovation which prompted me to become a fullstack web developer.</h5>
+    </div>
+    <div class="about-page-photo">
+      <%= image_tag 'profilepic.png', height: 360, crop: :fit, class: 'rounded' %>
+    </div>
+    <div class="about-page-info2">
+      <div class="about-page-education">
+        <h4><strong>Education</strong></h4>
+        <div class="education-card">
+          <div class="education-le-wagon">
+            <h5><strong><%= link_to "Le Wagon", "https://www.lewagon.com/", target: "_blank"%></strong></h5>
+            <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png"/>
+          </div>
+        <h5>Intense 9 week coding bootcamp</h5>
+          <li>Project lead</li>
+          <li>Moderated panel talks</li>
+        </div>
+        <hr>
+        <div class="education-card">
+          <div class="education-lse d-flex">
+            <h5><strong><%= link_to "London School of Economics", "http://www.lse.ac.uk/" %></strong></h5>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/LSE_Logo.svg"/>
+          </div>
+          <h5>Bsc Management, 2:1 Honors</h5>
+          <li>Econometrics Peer Tutor</li>
+          <li>Futsal Team Captain</li>
+          <li>Raised > £1,000 for <%= link_to "Student Minds", "https://www.studentminds.org.uk/", target: "_blank"%></li>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <div class="about-page-experience">
+    <h1>Experience</h1>
+    <hr>
+    <div class="experience-card">
+      <h2><%= link_to "Qadre", "https://www.qad.re/", target: "_blank"%></h2>
+      <h3>Finance Associate</h3>
+      <h4>July 2018 - September 2019</h4>
+      <li>Responsible for the financial modelling of projects, analysing internal budgets and building a company wide ROI model.</li>
+      <li>Consulted on multiple projects to assess blockchain's compatibility with client businesses.</li>
+      <li>Helped design and implement blockchain solutions in the Trade Finance, Post-Trade, FMCG, Recruitment and Corporate Administration industries.</li>
+    </div>
+    <hr>
+    <div class="experience-card"experience-card>
+      <h2><%= link_to "Commerzbank AG, Luxembourg", "https://www.commerzbank.com/", target: "_blank"%></h2>
+      <h3>Credit Risk Intern</h3>
+      <h4>May 2017 - July 2017</h4>
+      <li>Led on two major credit reports and three smaller reports, evaluating the credit risk of over €250mn in loans.</li>
+      <li>One of the major credit reports was on the division’s largest client - I was commended for my work and presented to the Sub Credit Committee based in Frankfurt.</li>
+    </div>
+    <hr>
+    <div class="experience-card">
+      <h2><%= link_to "London School of Economics", "http://www.lse.ac.uk/", target: "_blank"%></h2>
+      <h3>Econometrics Peer Tutor</h3>
+      <h4>September 2016 - July 2017</h4>
+      <li>I met 5 tutees every week to help them with course material and problem sets in preparation for weekly tests and the end of year exam. Each tutee achieved first class grades in the subject.</li>
+    </div>
+    <hr>
+    <div class="experience-card">
+      <h2><%= link_to "Z/Yen", "https://www.zyen.com/", target: "_blank"%></h2>
+      <h3>Research Intern</h3>
+      <h4>May 2016 - June 2016</h4>
+      <li>Coordinated a large research project which involved gathering information and analysing data to be included in the final report.</li>
+      <li>After completing the project I produced some of my own research on the relationship between accounting practices and pension liabilities and wrote an <%= link_to "article", "https://www.longfinance.net/news/pamphleteers/understanding-the-pension-crisis/", target: "_blank" %> for the company’s blog.</li>
+    </div>
+    <hr>
+    <div class="experience-card">
+      <h2><%= link_to "HSBC London", "https://www.hsbc.co.uk/", target: "_blank"%></h2>
+      <h3>Operational Risk Intern</h3>
+      <h4>June 2014 - July 2014</h4>
+      <li>Worked closely with another intern to deliver two presentations to the Chief Risk Officer for Global Banking and Markets and the Operational Risk Management team. We interviewed a number of trading floor staff and risk executives alongside conducting our own research.</li>
+      <li>The first presentation was about the causes, consequences, and lessons from the bank’s Deferred Prosecution Agreement and the second was about the drivers and risks around rogue trading in the financial sector.</li>
+      <li>After my internship, I spent more time looking into banking culture and subsequently submitted an essay for a school competition, winning a gold prize for my analysis</li>
+    </div>
+    <hr>
+    <div class="experience-card">
+      <h2>Other roles</h2>
+      <li>F2F salesman for Precision Acquisition (8th December 2016 – January 2017)
+      <li>Market research on the property market for a start-up (September – December 2016)</li>
+      <li><%= link_to "Prospect Asset Management, Tokyo", "http://prospectjapan.com/pami/"%> (5th August – 9th August 2013)
+      <li><%= link_to "CSFI (Centre for Study of Financial Innovation", "http://www.csfi.org/" %> (24th June – 5th July 2013)</li>
+    </div>
+  </div>
+</div>

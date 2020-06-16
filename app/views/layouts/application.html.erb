@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsProfile</title>
+    <title>Daniel Howitt</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -12,6 +12,9 @@
   </head>
 
   <body>
+    <%= render 'shared/navbar' %>
     <%= yield %>
+    <hr>
+    <%= render 'shared/footer' %>
   </body>
 </html>

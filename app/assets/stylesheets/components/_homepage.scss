@@ -1,0 +1,47 @@
+.homepage-content h1 {
+  text-align: center;
+  color: #0B2027;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  text-align: center;
+  & a{text-decoration: none;
+  }
+  & a:hover {
+    text-decoration: none;
+  }
+  margin: 0px 12px 0px 12px;
+}
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0B2027;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  border: 1px solid rgba(11,32,39,0.3);
+  background-color: white;
+  box-shadow: 5px 5px rgba(11,32,39,0.5);
+  &:hover {
+    box-shadow: 5px 5px rgba(11,32,39,0.8);
+    border: 1px solid rgba(11,32,39,0.6);
+  }
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.card-body i {
+  font-size: 24px;
+}
