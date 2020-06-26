@@ -1,0 +1,27 @@
+.service-content {
+  color: #0B2027;
+  text-align: center;
+}
+
+.service-header {
+  text-align: center;
+  margin: 24px 0px 24px 0px;
+  & h2 {
+  margin-bottom: 12px;
+  }
+  & h5 {
+  margin-bottom: 12px;
+  line-height: 1.8;
+  }
+}
+
+.service-title-icon i {
+  font-size: 32px;
+  margin-right: 12px;
+}
+
+.service-card {
+  & h5 {
+    line-height: 1.8;
+  }
+}

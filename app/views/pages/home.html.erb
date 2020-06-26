@@ -1,19 +1,21 @@
 <div class="banner">
   <div class="banner-content ml-4">
     <h1>Welcome</h1>
-    <p>I'm Daniel Howitt and I offer bespoke services to tailor to your business needs</p>
+    <p>Bespoke services tailored to your business needs</p>
     <a class="btn btn-primary" href="#">Get in touch</a>
   </div>
+  <a href="#homepage-header"><i class="fas fa-chevron-down"></i></a>
 </div>
-<div class="homepage-content">
-<hr>
-<h1><strong>Services</strong></h1>
-<hr>
+<div class="homepage-content ml-4 mr-4 mt-2">
+  <div id="homepage-header">
+    <h1><strong>Services</strong></h1>
+  </div>
+  <hr>
   <div class="cards mt-3">
     <%= link_to fullstack_path do %>
     <div class="card-category">
       <div class="card-body">
-        <h3 class="card-title">Fullstack Web Development</h3>
+        <h4 class="card-title">Fullstack Web Development</h4>
         <p class="card-text">From webpage design to launching a fully functional web app, I have you covered end-to-end.</p>
         <i class="fas fa-code"></i>
       </div>
@@ -22,7 +24,7 @@
     <%= link_to finance_path do %>
       <div class="card-category">
         <div class="card-body">
-          <h3 class="card-title">Financial Analysis & Modelling</h3>
+          <h4 class="card-title">Financial Analysis & Modelling</h4>
           <p class="card-text">Realise commercial opportunities and meet your growth aspirations with in-depth analysis and insight.</p>
           <i class="fas fa-chart-line"></i>
           </div>
@@ -31,7 +33,7 @@
     <%= link_to consulting_path do %>
       <div class="card-category">
         <div class="card-body">
-          <h3 class="card-title">Consulting</h3>
+          <h4 class="card-title">Consulting</h4>
           <p class="card-text">With a depth of experience in a variety of industries, I offer strategic, risk, and tech consultancy services.</p>
           <i class="fas fa-user-tie"></i>
         </div>

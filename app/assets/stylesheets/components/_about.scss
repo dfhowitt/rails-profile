@@ -1,32 +1,42 @@
-.name {
+#name {
   text-align: center;
+  color: #353535;
 }
 
 .about-page-content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  color: #353535;
 }
 
 .about-page-info1 {
   width: 92%;
   text-align: justify;
+  color: #353535;
 }
 
 .about-page-info2 {
   width: 100%;
   margin-left: 12px;
   border-radius: 8px;
+  color: #353535;
 }
 
 .about-page-photo {
   width: 100%;
 }
 
+.about-page-experience {
+  color: #353535;
+}
+
 .education-card {
-  background-color: white;
-  color: #0B2027;
+  color: #353535;
   padding: 6px;
   border-radius: 8px;
+  & a:hover {
+    text-decoration: none;
+  }
 }
 
 .education-le-wagon {
@@ -55,7 +65,9 @@
 
 .experience-card {
   border-radius: 8px;
-  padding: 12px;
-  background-color: white;
-  color: #0B2027;
+  padding: 12px 12px 12px 0px;
+  color: #353535;
+  & a:hover {
+    text-decoration: none;
+  }
 }

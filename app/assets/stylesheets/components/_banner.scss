@@ -2,11 +2,14 @@
   background-image: url('banner.jpg');
   background-image: linear-gradient(rgba(0,0,0,0.4));
   background-size: cover;
-  height: 720px;
+  height: 750px;
   background-position: center;
-  padding: 150px 0;
+  padding: 175px 0;
   margin-bottom: 4px;
   border-bottom: 3px solid #0B2027;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 
 .banner h1 {
@@ -20,6 +23,95 @@
 .banner p {
   font-size: 20px;
   color: white;
-  opacity: .7;
+  opacity: .8;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
+
+.banner i {
+  color: white;
+  font-size: 72px;
+  opacity: 0.6;
+  position: relative;
+  top: 380px;
+}
+
+.about-banner {
+  background-image: url('me3.JPG');
+  background-image: linear-gradient(rgba(0,0,0,0.4));
+  background-size: cover;
+  height: 750px;
+  background-position: center;
+  padding: 150px 0;
+  margin-bottom: 4px;
+  border-bottom: 3px solid #0B2027;
+  text-align: center;
+}
+
+.about-banner i {
+  color: white;
+  font-size: 72px;
+  opacity: 0.6;
+  position: relative;
+  top: 520px;
+}
+
+.finance-banner {
+  background-image: url('finance.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.4));
+  background-size: cover;
+  height: 750px;
+  background-position: center;
+  padding: 150px 0;
+  margin-bottom: 4px;
+  border-bottom: 3px solid #0B2027;
+  text-align: center;
+}
+
+.finance-banner i {
+  color: white;
+  font-size: 72px;
+  opacity: 0.6;
+  position: relative;
+  top: 520px;
+}
+
+.fullstack-banner {
+  background-image: url('fullstack.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.4));
+  background-size: cover;
+  height: 750px;
+  background-position: center;
+  padding: 150px 0;
+  margin-bottom: 4px;
+  border-bottom: 3px solid #0B2027;
+  text-align: center;
+}
+
+.fullstack-banner i {
+  color: white;
+  font-size: 72px;
+  opacity: 0.6;
+  position: relative;
+  top: 520px;
+}
+
+.consulting-banner {
+  background-image: url('consulting.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.4));
+  background-size: cover;
+  height: 750px;
+  background-position: center;
+  padding: 150px 0;
+  margin-bottom: 4px;
+  border-bottom: 3px solid #0B2027;
+  text-align: center;
+}
+
+.consulting-banner i {
+  color: white;
+  font-size: 72px;
+  opacity: 0.6;
+  position: relative;
+  top: 520px;
+}
+
