@@ -18,15 +18,15 @@
     grid-template-columns: 1fr 1fr 1fr;
     & .about-page-info {
       border-right: solid 1px lightgray;
-      padding: 12px 24px 12px 12px;
+      padding: 12px 24px 0px 12px;
     }
     & .about-page-education {
       border-right: solid 1px lightgray;
-      padding: 12px 24px 12px 24px;
+      padding: 12px 24px 0px 24px;
     }
     & .about-page-experience {
     border-right: solid 1px lightgray;
-    padding: 12px 24px 12px 12px;
+    padding: 12px 24px 0px 12px;
     }
   }
 }

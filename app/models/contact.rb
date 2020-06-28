@@ -9,7 +9,7 @@ class Contact < ApplicationRecord
   def headers
     {
       subject: "Contact Form Inquiry",
-      to: "daniel.howitt@gmail.com",
+      to: "daniel.howittcontact@gmail.com",
       from: %("#{name}" <#{email}>)
     }
   end
