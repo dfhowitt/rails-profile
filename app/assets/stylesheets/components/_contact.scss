@@ -9,10 +9,6 @@
   justify-content: space-around;
 }
 
-.contact-container {
-  align-items: center;
-}
-
 .contact-form {
   display: flex;
   align-items: center;
@@ -22,5 +18,7 @@
 
 .contact-form-text-area {
   color: black;
+  padding: 4px;
 }
+
 .hidden { display: none; }
