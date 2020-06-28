@@ -30,11 +30,16 @@
 }
 
 .dropdown-menu-right{
+  text-shadow: none;
   display: none;
   position: absolute;
   min-width: 160px;
   z-index: 1;
   border-radius: 5px;
+  & a {
+    text-decoration: none;
+    text-shadow: none;
+  }
 }
 
 .dropdown-menu-right .dropdown-item {
