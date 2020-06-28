@@ -6,36 +6,9 @@
 @media (min-width: 480px) {
   .about-page-content {
     grid-template-columns: 1fr;
-    & .about-page-education {
-      margin-top: 36px;
-    }
-    & .about-page-experience {
-      margin-top: 36px;
-    }
-  }
-}
-
-@media (min-width: 990px) {
-  .about-page-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    & .about-page-info {
-      border-right: solid 1px lightgray;
-      padding: 12px 24px 12px 24px;
-    }
-    & .about-page-education {
-      padding: 12px 24px 12px 24px;
-    }
-    & .about-page-experience {
-    border-right: solid 1px lightgray;
-    padding: 12px 24px 12px 12px;
-    }
-  }
-  .about-page-education {
-    width: 60%;
-    & hr {
-      display: none;
-    }
+    // & li {
+    // list-style: none;
+    // }
   }
 }
 
@@ -43,7 +16,7 @@
   .about-page-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    & .about-page-card {
+    & .about-page-info {
       border-right: solid 1px lightgray;
       padding: 12px 24px 12px 12px;
     }
@@ -58,6 +31,10 @@
   }
 }
 
+// li {
+//     list-style: none;
+// }
+
 // .about-page-content {
 //   display: grid;
 //   grid-template-columns: 1fr 1fr 1fr;
@@ -65,19 +42,24 @@
 
 .about-page-info {
   width: 100%;
-  margin: 0px 12px 0px 0px;
+  margin: 0px 12px 36px 0px;
   text-align: justify;
   color: #353535;
 }
 
 .about-page-education {
   width: 100%;
-  margin: 0px 12px 0px 0px;
+  margin: 0px 12px 36px 0px;
   text-align: justify;
   color: #353535;
 }
 
-.about-page-experience
+.about-page-experience {
+  width: 100%;
+  margin: 0px 12px 12px 0px;
+  text-align: justify;
+  color: #353535;
+}
 
 
 .education-card {
@@ -99,9 +81,9 @@
   }
 }
 
-li {
-  display: inline-block;
-}
+// li {
+//   display: inline-block;
+// }
 
 .education-lse {
   align-items: center;

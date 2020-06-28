@@ -1,0 +1,30 @@
+.contact-banner {
+  background-image: url('https://res.cloudinary.com/dezrxo3qo/image/upload/v1593380655/dhowitt/contact_ehrtwk.jpg');
+  background-size: cover;
+  height: 750px;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contact-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.contact-form-text-area {
+  color: black;
+}
+.hidden { display: none; }

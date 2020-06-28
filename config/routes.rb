@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get "fullstack", to: "pages#fullstack"
   get "finance", to: "pages#finance"
   get "consulting", to: "pages#consulting"
+  resources :contact, only: [:index, :new, :create]
 end

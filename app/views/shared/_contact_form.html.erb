@@ -1,0 +1,21 @@
+<%= form_for @contact, url: contact_index_path, remote: true do |f| %>
+  <div class="col-md-6">
+    <div class="contact-name mt-3">
+      <%= f.text_field  :name, required: true, class: "contact-form-text-area", placeholder: "Your name" %>
+    </div>
+    <div class="contact-email mt-3">
+      <%= f.text_field :email, required: true, class: "contact-form-text-area", placeholder: "Your email" %>
+    </div>
+    <div class="contact-message mt-3">
+    <%= f.text_area :message, rows: 4, cols: 60, required: true, class: "contact-form-text-area",
+                      placeholder: "Send me a message"%>
+      <div class= "hidden">
+        <%= f.label :nickname %>
+        <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
+      </div>
+      <div class="contact-submit">
+        <%= f.submit 'Send', class: 'btn btn-primary sweet-alert-sent' %>
+      </div>
+    </div>
+  </div>
+<% end %>
