@@ -6,7 +6,8 @@
   font-weight: lighter;
   & a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #F5F5F5;
+    text-shadow: 1px 1px 2px #353535;
     font-size: 16px;
   }
   & a:hover {
@@ -16,12 +17,14 @@
 }
 
 .dropdown {
+  color: #F5F5F5;
   position: relative;
   display: inline-block;
 }
 
 .dropbtn{
-  color: #FFFFFF;
+  color: #F5F5F5;
+  text-shadow: 1px 1px 2px #353535;
   background: transparent;
   border: none;
 }
