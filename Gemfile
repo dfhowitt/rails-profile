@@ -31,7 +31,14 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 gem 'simple_form'
-gem 'cloudinary', '~> 1.12.0'
+gem 'bootstrap', '~> 4.5.0'
+gem 'bootstrap-sass', '~> 3.4'
+gem 'mail_form'
+gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
+gem 'sweetalert2'
+gem 'turbolinks_render'
+gem "rack", ">= 2.2.3"
+# gem "actionpack", ">= 6.0.3.2"
 
 group :development, :test do
   gem 'pry-byebug'
