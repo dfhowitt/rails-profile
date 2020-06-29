@@ -33,6 +33,7 @@ gem 'font-awesome-sass'
 gem 'simple_form'
 gem 'bootstrap', '~> 4.5.0'
 gem 'bootstrap-sass', '~> 3.4'
+
 gem 'mail_form'
 gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 gem 'sweetalert2'
