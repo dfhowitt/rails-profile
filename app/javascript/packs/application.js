@@ -24,6 +24,9 @@ require("channels")
 
 // External imports
 import "bootstrap";
+import { initSweetalert } from '../plugins/init_sweetalert2';
+import Swal from 'sweetalert2/dist/sweetalert2.js'
+import 'sweetalert2/src/sweetalert2.scss'
 
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
@@ -31,4 +34,5 @@ import "bootstrap";
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
+  initSweetalert('.sweet-alert-sent');
 });

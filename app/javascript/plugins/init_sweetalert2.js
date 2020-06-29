@@ -8,12 +8,11 @@ const initSweetalert = (selector, options = {}, callback = () => {} ) => {
         // swal(options).then(callback(id));
         Swal.fire(
           'Thanks!',
-          'Your message has been sent!',
+          'Your message has been sent! I\'ll be in touch soon',
           'success'
         ).then(function(){
          location.reload();
          });
-
       });
     });
   };
