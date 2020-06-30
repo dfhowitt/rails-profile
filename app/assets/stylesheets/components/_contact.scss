@@ -3,10 +3,15 @@
   background-size: cover;
   height: 750px;
   background-position: center;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-around;
+  position: relative;
+  // display: flex;
+  // align-items: center;
+  // flex-direction: column;
+  // justify-content: space-around;
+  & .footer {
+    position: absolute;
+    bottom: 20px;
+  }
 }
 
 .contact-form {
@@ -19,6 +24,9 @@
 .contact-form-text-area {
   color: black;
   padding: 4px;
+  width: 90%;
 }
 
 .hidden { display: none; }
+
+
